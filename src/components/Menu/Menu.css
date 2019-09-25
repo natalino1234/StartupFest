@@ -1,0 +1,7 @@
+nav.Menu{
+    background: rgba(0,0,0,0.8);
+    height: 50px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content:flex-start;
+}

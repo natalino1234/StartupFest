@@ -1,0 +1,9 @@
+.Lista{
+    margin-top: 40px;
+}
+
+.listaEmpresas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

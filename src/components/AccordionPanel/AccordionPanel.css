@@ -1,0 +1,23 @@
+nav.Menu > a{
+    height: 50px;
+    margin: 0px 10px;
+    color: white;
+    transition: background .5s ease;
+
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+nav.Menu > a:hover{
+    background: rgb(131, 131, 131);
+}
+
+nav.Menu > a > i {
+    line-height: 50px;
+    font-size: 1.5em;
+}
+
+nav.Menu > a > span{
+    line-height: 50px;
+    padding: 0px 10px; 
+}

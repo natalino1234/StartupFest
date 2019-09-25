@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\client",
+    "\\src\\components",
+    "\\src\\components\\AccordionPanel",
+    "\\src\\components\\EmpresaItem",
+    "\\src\\components\\EmpresaRanking",
+    "\\src\\pages",
+    "\\src\\pages\\Lista",
+    "\\src\\pages\\Ranking"
+  ],
+  "SelectedNode": "\\src\\components\\EmpresaItem\\EmpresaItem.css",
+  "PreviewInSolutionExplorer": false
+}

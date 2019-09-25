@@ -1,0 +1,18 @@
+div.Accordion > .tabs > .tab {
+    height: 40px;
+    line-height: 40px;
+    background: rgb(128, 128, 128);
+    padding: 0px 10px;
+    color: white;
+    transition: background ease .5s;
+    user-select: none;
+}
+
+div.Accordion > .tabs > .tab:hover {
+    background: black;
+    cursor: pointer;
+}
+
+div .Accordion > .tabs > .tab.selected {
+    background: rgba(0,0,0,0.8);
+}

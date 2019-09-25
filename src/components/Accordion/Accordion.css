@@ -1,0 +1,18 @@
+div.Accordion{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.Accordion > .tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12pt;
+}
+
+
+
+div.Accordion > .content {
+    border: 1px rgba(0,0,0,0.8) solid;
+}

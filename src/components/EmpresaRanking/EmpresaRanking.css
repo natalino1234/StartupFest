@@ -1,0 +1,32 @@
+.Ranking .empresa {
+    position: relative;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    text-align: left;
+    grid-template-areas: "logo nome" "logo tipo" "logo nota";
+    grid-template-columns: 80px auto;
+    grid-gap: 10px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.Ranking .empresa > .logo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-position: 0px 50%;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    grid-area: logo;
+}
+.Ranking .empresa > .nome {
+    grid-area: nome;
+}
+.Ranking .empresa > .tipo {
+    grid-area: tipo;
+}
+.Ranking .empresa > .nota {
+    grid-area: nota;
+}

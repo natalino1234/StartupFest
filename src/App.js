@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { routes } from './routes';
+import { Route } from 'react-router-dom';
+import Menu from './components/Menu/Menu';
+import MenuItem from './components/MenuItem/MenuItem';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <Menu>
+                    <MenuItem nome="Empresas" icon="fa-th-list" path="/" />
+                    <MenuItem nome="Ranking" icon="fa-clipboard-list" path="/Ranking" />
+                </Menu>
+                <main>
+                    {routes.map((value, index) => {
+                        return <Route key={index} exact={value.exact} path={value.path} component={value.component} />;
+                    })}
+                </main>
+            </div>
+        );
+    }
 }
 
 export default App;

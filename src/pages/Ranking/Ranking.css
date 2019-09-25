@@ -1,0 +1,9 @@
+.Ranking{
+    margin-top: 40px;
+    padding: 20px 0px;
+}
+
+.listaEmpresas{
+    display: flex;
+    flex-wrap: wrap;
+}
